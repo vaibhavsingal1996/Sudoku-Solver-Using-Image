@@ -5,7 +5,7 @@ It solves the sudoku which is given as an image for input.
 It uses Knuth Dancing Links Algorithm to solve the sudoku as an exact cover problem.
 
 # Image Recognition
-An image of sudoku is first preprocessed to identify the sudoku grid.
+An image of sudoku is first preprocessed to identify the sudoku grid. \n
 Then after the grid is extracted, straightened and flattened.
 Then each digit box is separated out and ran through the digit recognition model to obtain the numerical it repesents.
 Which is then formed as a 2D array and passed to algorithm to obtain the solution.
